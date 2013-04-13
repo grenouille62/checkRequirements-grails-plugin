@@ -1,0 +1,25 @@
+<plugin name='check-requirements-grails-plugin' version='0.3' grailsVersion='2.2 &gt; *'>
+    <author>Bao-Khoi Nguyen</author>
+    <authorEmail>bknguyen@sopragroup.com</authorEmail>
+    <title>Check Requirements Grails Plugin Plugin</title>
+    <description>Brief summary/description of the plugin.
+    </description>
+    <documentation>http://grails.org/plugin/check-requirements-grails-plugin</documentation>
+    <type>CheckRequirementsGrailsPluginGrailsPlugin</type>
+    <resources/>
+    <repositories>
+        <repository name='grailsCentral' url='http://grails.org/plugins'/>
+        <repository name='http://slnxvmcrifinteg.mtrl.fr.sopra/nexus/content/groups/public/'
+                    url='http://slnxvmcrifinteg.mtrl.fr.sopra/nexus/content/groups/public/'/>
+        <repository name='mavenCentral' url='http://repo1.maven.org/maven2/'/>
+    </repositories>
+    <dependencies>
+        <compile>
+            <dependency group='net.sourceforge.jexcelapi' name='jxl' version='2.6.12'/>
+            <dependency group='com.thoughtworks.xstream' name='xstream' version='1.4.4'/>
+        </compile>
+    </dependencies>
+    <plugins/>
+    <runtimePluginRequirements/>
+    <behavior/>
+</plugin>
