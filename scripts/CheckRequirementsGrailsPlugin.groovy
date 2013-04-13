@@ -10,7 +10,7 @@ private void runCheckRequirements() {
     ant.taskdef(name: 'checkRequirements', classname: 'checkRequirements.ant.task.CheckRequirementsTask')
 
 
-    def configClassName = getBindingValueOrDefault('configClassname', 'BuildConfig')
+    def configClassName = getBindingValueOrDefault('configClassname', "BuildConfig")
     def config = loadConfig(configClassName)
 
 
